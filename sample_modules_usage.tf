@@ -15,7 +15,7 @@ module "workbench" {
     subnet = "projects/<PROJECT>/regions/us-central1/subnetworks/default"
   }
 
-  project_id     = "wf-prod-466816"
+  project_id     = "<PROJECT>"
   metadata = {
     "disable-mixer" =  "false"
     #"post-startup-script" = "gs://sample_transactions_sales/inits.sh"

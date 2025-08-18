@@ -44,7 +44,7 @@ module "workbench" {
   zone          = "us-central1-a"
   instance_owners = ["oscarpulido@oscarpulido.com"]
   service_accounts = {
-    email = "svc-d-aida-platform-sa@prj-d-aida-platform.iam.gserviceaccount.com"
+    email = "<SA>"
   }
   network_interfaces = {
     subnet = "projects/<PROJECT>/regions/us-central1/subnetworks/<SUBNET>"
