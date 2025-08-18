@@ -1,5 +1,5 @@
 module "workbench" {
-  source = "../modules/personal-workbench-instance"
+  source = "CHANGEME"
 
   instance_name = "a-notebook-tfe-test-17"
   machine_type  = "e2-medium"
